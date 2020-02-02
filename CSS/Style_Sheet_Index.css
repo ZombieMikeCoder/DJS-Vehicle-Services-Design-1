@@ -1,0 +1,293 @@
+/* Style For All Webpage Containers */
+.container{
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+
+
+/* Header And Nav Bar Border Between Header And Showcase Section */
+header{
+background:#35424a;
+padding-top:30px;
+min-height:70px;
+border-bottom:#78b3e2 5px solid;
+}
+
+
+/* Page Links Styles Before Hovering */
+header a{
+color:#78b3e2;
+text-decoration:none;
+text-transform: uppercase;
+font-size:20px;
+font-weight:bold;
+}
+
+
+/* Page Links Unordered List Positioning */
+header li{
+float:left;
+display:inline;
+padding: 0 10px 0 10px;
+}
+
+
+/* Company Title DJS Vehicle Services Style */
+header #branding{
+float:left;
+margin:0;
+font-weight:bold;
+font-size: 30px;
+padding: 0 10px 0 10px;
+color: #78b3e2;
+}
+
+
+/* Page links When Hovered Over */
+header a:hover{
+color:#00285E;
+}
+
+
+/* Showcase Background Style */
+#showcase{
+min-height:500px;
+background:url('../Images/Jaguar_XF_MK2_03.jpg') no-repeat center;
+}
+
+
+/* Showcase Header Text */
+#showcase h1{
+margin-top:100px;
+font-size:55px;
+margin-bottom:10px;
+text-align:center;
+font-weight: bold;
+color:#000000;
+}
+
+
+/* Showcase Paragraph Text Style */
+#showcase p{
+font-size:30px;
+text-align:center;
+font-weight: bold;
+color:#000000;
+}
+
+
+/* Contact Bar Style */
+#Contact_Bar{
+padding:15px;
+color:#ffffff;
+background:#35424a
+}
+
+
+/* Contact Bar Text Left Side Mobile */
+#Contact_Bar .text_left{
+float:left;
+font-weight: bold;
+color: #78b3e2;
+font-size: 20px;
+padding: 10px;
+}
+
+
+/* Contact Bar Text Right Side Facebook */
+#Contact_Bar .text_right{
+float: right;
+font-weight: bold;
+color: #78b3e2;
+font-size: 20px;
+padding: 10px;
+}
+
+
+
+/* Contact Bar Facebook Image Link */
+#Contact_Bar .facebook_image{
+float: right;
+margin: 0px 10px;
+}
+
+
+
+
+
+
+
+/* Footer Style */
+footer{
+padding:20px;
+margin-top:20px;
+color:#ffffff;
+background-color:#35424a;
+text-align: center;
+color: #78b3e2;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+
+/* POSSIBLE DELETE */
+.button_1{
+  height:38px;
+  background:#00285E;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#00285E;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+header nav{
+float:right;
+margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+
+}
